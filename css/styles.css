@@ -1,8 +1,10 @@
 .gallery {
-  gap: 10px;
+  gap: 24px;
   flex-flow: row wrap;
   list-style-type: none;
   display: flex;
+  width: 1128px;
+  margin: 0 auto;
 }
 
 .gallery-image {

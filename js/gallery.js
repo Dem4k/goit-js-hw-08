@@ -65,17 +65,16 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-// console.log(gallery);
 
 function createMarkup(array) {
   return array
     .map(
       (
         el
-      ) => `<li class = "gallery-item" > <a class = "gallery-link" href = "${el.original}" >
+      ) => `<li class="gallery-item" > <a class="gallery-link" href = "${el.original}" >
    
     <img 
-      class = "gallery-image" 
+      class ="gallery-image" 
       src = "${el.preview}" 
       data-source = "${el.original}" 
       alt = "${el.description}" 
